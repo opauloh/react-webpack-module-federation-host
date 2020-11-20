@@ -1,1 +1,1 @@
-import("./App");
+import("./App"); //Lazyly importing App

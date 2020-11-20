@@ -46,7 +46,9 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Modal": "./src/Modal",
+      },
       shared: {
         ...deps,
         react: {
